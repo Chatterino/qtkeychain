@@ -15,3 +15,6 @@ to encrypt the password with the user's logon credentials. The encrypted data is
 In unsupported environments QtKeychain will report an error. It will not store any data unencrypted unless explicitly requested (setInsecureFallback( true )).
 
 **License:** QtKeychain is available under the [Modified BSD License](http://www.gnu.org/licenses/license-list.html#ModifiedBSD). See the file COPYING for details.
+
+# Changes made in this fork (Chatterino/qtkeychain)
+Added `#undef singals` in libsecret.cpp to fix compilation.
