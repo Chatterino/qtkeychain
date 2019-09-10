@@ -1,3 +1,5 @@
+#undef signals
+
 #if defined(HAVE_LIBSECRET)
 #include <libsecret/secret.h>
 #endif

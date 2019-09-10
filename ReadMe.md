@@ -27,3 +27,7 @@ License
 -------
 
 QtKeychain is available under the [Modified BSD License](http://www.gnu.org/licenses/license-list.html#ModifiedBSD). See the file COPYING for details.
+
+Changes made in this fork (Chatterino/qtkeychain)
+-------
+Added `#undef singals` in libsecret.cpp to fix compilation.
