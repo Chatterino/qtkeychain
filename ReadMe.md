@@ -30,4 +30,6 @@ QtKeychain is available under the [Modified BSD License](http://www.gnu.org/lice
 
 Changes made in this fork (Chatterino/qtkeychain)
 -------
+
+Updated the .pri file to point to the right mac/apple-specific file
 Added `#undef singals` in libsecret.cpp to fix compilation.
